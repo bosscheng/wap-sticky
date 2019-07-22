@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Title</title>
+    <style>
+
+        html,body{
+            margin: 0;
+        }
+
+        .wrapper {
+            height: 1000px;
+        }
+
+        .nav {
+            height: 88px;
+            background: url("1.png");
+        }
+
+        .sticky {
+            position: -webkit-sticky;
+            left: 0;
+            right: 0;
+            top: 0;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="sticky nav">
+    </div>
+</div>
+<script src="../sticky.js"></script>
+<script>
+    _wap.stickyTop('.nav');
+</script>
+</body>
+</html>
